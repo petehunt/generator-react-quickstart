@@ -1,9 +1,12 @@
 {
   "name": "generator-react-quickstart",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.0.2",
+  "description": "A generator React apps and libraries",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "react",
+    "jsx",
+    "react-tools"
   ],
   "homepage": "https://github.com/petehunt/generator-react-quickstart",
   "bugs": "https://github.com/petehunt/generator-react-quickstart/issues",
@@ -21,6 +24,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "react-boilerplate": "petehunt/react-boilerplate",
     "react-browserify-template": "petehunt/react-browserify-template",
     "yeoman-generator": "~0.14.0"
   },
