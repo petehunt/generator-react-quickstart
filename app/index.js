@@ -93,6 +93,8 @@ ReactQuickstartGenerator.prototype.browserify = function() {
   });
 
   pkg.main = pkg.main || 'index.js';
+  pkg.staticRoot = templatePkg.staticRoot;
+  pkg.staticPlugin = templatePkg.staticPlugin;
   pkg.browserify = pkg.browserify || {};
   pkg.browserify.transform = pkg.browserify.transform || [];
 
